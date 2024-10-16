@@ -12,37 +12,46 @@ a {
     font-style: normal;
 }
 
-a:active, a:focus {
-    color: #4D5AE5;
-}
 
 .logo {
     font-family: "Raleway",sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
+    color: #4D5AE5;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.logo-color {
     color: #2E2F42;
 }
 
-.logo-blue {
-    color: #4D5AE5
-}
-
-.navigation a {
+.navigation {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     color: #2E2F42;
+    letter-spacing: 0.02em;
 }
 
-address a {
+.navigation:hover, .navigation:focus {
+    color: #4D5AE5;
+}
+
+.contacts {
+    font-style: normal;
+}
+
+.contact-link {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     color: #434455;
+    letter-spacing: 0.02em;
 }
 
-address a:hover {
+.contact-link:hover, .contact-link:focus {
     color: #4D5AE5;
 }
 
@@ -50,50 +59,70 @@ address a:hover {
     background-color: #2E2F42;
 }
 
-.hero-image h1 {
+.hero-image-title {
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.1;
+    line-height: 1.07;
     color: #FFFFFF;
+    text-align: center;
+    letter-spacing: 0.02em;
 }
 
-.hero-image button {
+.order-service {
     background-color: #4D5AE5;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     color: #FFFFFF;
     cursor: pointer;
+    letter-spacing: 0.04em
 }
-button:active, button:focus {
+.order-service:hover, .order-service:focus {
     color: #4D5AE5;
 }
 
-h3 {
+.list-name {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     color: #2E2F42;
+    letter-spacing: 0.02em
 }
 
-p {
+.list-description {
     font-size: 16px;
     line-height: 1.5;
     color: #434455;
+    letter-spacing: 0.02em
 }
 
 .team {
     background-color: #F4F4FD;
 }
 
-footer {
+.section-title{
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+
+.list-object {
+    background-color: #FFFFFF;
+}
+
+.bottom {
     background-color: #2E2F42;
 }
 
-footer .logo {
+.bottom .logo-color {
     color: #F4F4FD;
 }
 
-footer p {
+.bottom-text {
     color: #F4F4FD;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
