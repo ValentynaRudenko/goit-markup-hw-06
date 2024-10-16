@@ -36,7 +36,7 @@ a {
 }
 
 .navigation:hover, .navigation:focus {
-    color: #4D5AE5;
+    color: #404bbf;
 }
 
 .contacts {
@@ -52,7 +52,7 @@ a {
 }
 
 .contact-link:hover, .contact-link:focus {
-    color: #4D5AE5;
+    color: #404bbf;
 }
 
 .hero-image {
@@ -78,7 +78,7 @@ a {
     letter-spacing: 0.04em
 }
 .order-service:hover, .order-service:focus {
-    color: #4D5AE5;
+    color: #404bbf;
 }
 
 .list-name {
