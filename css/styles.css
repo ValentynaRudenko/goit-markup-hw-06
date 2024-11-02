@@ -37,15 +37,11 @@ img {
 
 
 .container { 
-    max-width: 1128px; 
-    padding-left: 0;
-    padding-right: 0; 
+    max-width: 1158px; 
+    padding-left: 15px;
+    padding-right: 15px; 
     margin-left: auto;
     margin-right: auto; 
-}
-
-section {
-
 }
 
 .page-header {
@@ -61,15 +57,10 @@ section {
     
 }
 
-.page-nav {
+.nav-class {
     display: flex;
+    align-items: center;
     gap: 40px;
-}
-
-.contacts-container {
-    display: flex;
-    gap: 40px;
-    flex-wrap: wrap;
 }
 
 .logo {
@@ -88,12 +79,18 @@ section {
     color: #2E2F42;
 }
 
+.page-nav {
+    display: flex;
+    gap: 40px;
+}
+
 .navigation {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     color: #2E2F42;
     letter-spacing: 0.02em;
+    padding: 24px 0 24px 0;
 }
 
 .navigation:hover, .navigation:focus {
@@ -105,12 +102,21 @@ section {
     margin-left: auto;
 }
 
+.contacts-container {
+    display: flex;
+    gap: 40px;
+}
+
 .contact-link {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     color: #434455;
     letter-spacing: 0.02em;
+}
+
+.contact-link:last-child {
+    margin-right: 0;
 }
 
 .contact-link:hover, .contact-link:focus {
@@ -121,19 +127,19 @@ section {
     padding: 120px 0;
 }
 
+.hero-image {
+    background-color: #2E2F42;
+    padding-top: 188px;
+    padding-bottom: 188px;
+}
+
 .hero-image-container {
     display: flex;
     flex-direction: column;
-    padding-top: 188px;
-    padding-bottom: 188px;
     gap: 48px;
     justify-content: center;
     align-items: center;
     
-}
-
-.hero-image {
-    background-color: #2E2F42;
 }
 
 .hero-image-title {
@@ -155,8 +161,8 @@ section {
     color: #FFFFFF;
     cursor: pointer;
     letter-spacing: 0.04em;
-    display: flex;
-    width: 169px;
+    display: block;
+    min-width: 169px;
     height: 56px;
     gap: 10px;
     border: none;
@@ -170,17 +176,23 @@ section {
     background-color: #404BBF;
 }
 
-.hidden-title {
-    display: none;
-}
+.visually-hidden {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+  }
 
 .values-list {
     display: flex;
-    gap: 30px;
+    gap: 24px;
 }
 
 .values-item {
-    width: calc((100% - 3 * 30px) / 4);
+    flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 .list-name {
@@ -226,11 +238,12 @@ section {
     background-color: #FFFFFF;
     flex-basis: calc((100% - 3 * 24px) / 4);
     display: block;
+    border-radius: 0px 0px 4px 4px;
 }
 
 .team-data {
     display: block;
-    padding: 32px 16px;
+    padding: 32px 0;
     gap: 8px;
 }
 
@@ -264,19 +277,14 @@ section {
 
 .bottom {
     background-color: #2E2F42;
-}
-
-.bottom-container {
     padding: 100px 0;
 }
 
-.bottom-data {
-    display: block;
-    max-width: 264px;
-}
+
 
 .logo-bottom {
     margin-bottom: 16px;
+    display: inline-block;
 }
 
 .bottom .logo-color {
@@ -287,4 +295,5 @@ section {
     color: #F4F4FD;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    max-width: 264px;
 }
