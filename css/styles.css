@@ -342,11 +342,11 @@ section {
 
 
 
-.social-icons-link .link:hover {
+.social-icons-link:hover {
     background-color: #404bbf;
 }
 
-.social-icons-link .link:focus {
+.social-icons-link:focus {
     background-color: #404bbf;
 }
 
