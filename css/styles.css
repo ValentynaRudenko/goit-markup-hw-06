@@ -321,6 +321,7 @@ section {
     height: 40px;
     border-radius: 50%;
     background-color: #4D5AE5;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-icons-link .link {
@@ -337,9 +338,7 @@ section {
     fill: #f4f4fd;
 }
 
-.list-object .social-icons-link {
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+
 
 .social-icons-link .link:hover {
     background-color: #404bbf;
@@ -473,14 +472,14 @@ section {
     gap: 16px;
 }
 
-.bottom-icons .social-icons-link{
+.social-icons-link{
    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.bottom-icons .social-icons-link:hover {
+.social-icons-link:hover {
     background-color: #31d0aa;
 }
 
-.bottom-icons .social-icons-link:focus {
+.social-icons-link:focus {
     background-color: #31d0aa;
 }
