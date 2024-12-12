@@ -706,7 +706,9 @@ textarea:focus-within {
     position: relative;
 }
 
-.rectangle-icon-form{
+
+.icon-form {
+    fill: #2e2f42;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -716,10 +718,6 @@ textarea:focus-within {
     position: absolute;
     top: 26px;
     left: 16px;
-}
-
-.icon-form {
-    fill: #2e2f42;
 }
 
 input:focus-within ~ .rectangle-icon-form .icon-form{
