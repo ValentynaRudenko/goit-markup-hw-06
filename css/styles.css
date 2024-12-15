@@ -764,7 +764,6 @@ section {
 }
 
 .form-label-terms{
-    display: flex;
     font-weight: 400;
     font-size: 12px;
     line-height: 1.17;
@@ -775,7 +774,6 @@ section {
   
 .checkbox-box {
     display: inline-flex;
-    display: flex;
     height: 16px;
     width: 16px;
     border-radius: 2px;
