@@ -732,7 +732,7 @@ section {
     fill: #4D5AE5;
 }
 
-.form-field .comment {
+.form-field-comment {
     margin-bottom: 16px;
 }
 
@@ -754,7 +754,7 @@ section {
 
 }
 
-.textarea-commetnt:focus-within {
+.textarea-commetnt:focus {
     border-color: #4d5ae5;
 }
 
