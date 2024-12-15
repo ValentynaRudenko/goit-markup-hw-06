@@ -775,6 +775,7 @@ section {
   
 .checkbox-box {
     display: inline-flex;
+    display: flex;
     height: 16px;
     width: 16px;
     border-radius: 2px;
@@ -788,7 +789,6 @@ section {
     fill: transparent;
     background-color: transparent;
     cursor: pointer;
-
 }
 
 input[type="checkbox"]:checked + label .checkbox-box{
