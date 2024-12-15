@@ -754,7 +754,7 @@ section {
 
 }
 
-.textarea-commetnt:focus {
+.textarea-comment:focus {
     border-color: #4d5ae5;
 }
 
@@ -773,24 +773,8 @@ section {
     gap: 8px;
 }
   
-
-/* .terms-check {
-    position: absolute;
-    opacity: 0;
-    height: 0;
-    width: 0;
-} */
-
-/* .terms-check.visually-hidden {
-    position: absolute;
-    width: 16px;
-    height: 16px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-} */
-
 .checkbox-box {
+    display: inline-flex;
     height: 16px;
     width: 16px;
     border-radius: 2px;
@@ -799,7 +783,6 @@ section {
         background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
         border 250ms cubic-bezier(0.4, 0, 0.2, 1),
         fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    display: inline-flex;
     justify-content: center;
     align-items: center;
     fill: transparent;
